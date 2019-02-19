@@ -1,5 +1,6 @@
-
-
+body{
+    background-image: url("images/back.png"); 
+}
 .container {
     border: 10px white solid;
     background-color: white;
