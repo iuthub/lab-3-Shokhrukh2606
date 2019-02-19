@@ -1,0 +1,47 @@
+
+
+.container {
+    border: 10px white solid;
+    background-color: white;
+    margin: 0% 10% 0% 10%;
+}
+
+div.journalName {
+    background-color: #A8F0F0;
+    text-align: right;
+}
+
+div.journalName h2 {
+    font-size: 14pt;
+}
+
+
+
+
+
+div.kit {
+    border: 4px #C2E9E9 solid;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+    clear: right;
+}
+
+div.kit::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img:hover {
+    background-color: yellow;
+}
+
+p>img {
+    float: right;
+    overflow: auto;
+}
+
+span {
+    border-bottom: 2px blue dashed;
+}
